@@ -1,0 +1,21 @@
+/* JavaScript, html5, jQuery and CSS3 Study | (c) 2013 twitter@sumo_ninja_jp
+*/
+
+@charset "UTF-8";
+
+body,
+header,
+footer,
+p,
+ul,
+li,
+h1,
+h2,
+h3 {
+ padding: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+body,
+html {
+ height: 100%;
+}
