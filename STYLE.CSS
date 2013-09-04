@@ -19,3 +19,9 @@ body,
 html {
  height: 100%;
 }
+.dir-li,
+.dir-hx {
+ white-space: normal;
+ word-break: break-all;
+ word-wrap: break-word;
+}
