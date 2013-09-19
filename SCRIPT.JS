@@ -39,11 +39,15 @@ function updateList() {
     key = storage.key( i );
     result += "<li>";
     result += "<h3 class='dir-li'>Key[" + i + "]: " + key + "</h3>";
-    result += "<p class='dir-li'>Value: " + storage.getItem( key ) + "</p>";
+    result += "<p class='dir-li'>Value: " + replaceTag( storage.getItem( key ) ) + "</p>";
     result += "</li>";
   }
   result += "</ul>";
 
-//alert(result);
+//alert(replaceTag(result));
   return result;
+}
+
+function replaceTag( str ) {
+  return str.replace( /</g, "&lt" ).replace( />/g, "&gt" );
 }
