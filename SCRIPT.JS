@@ -1,5 +1,10 @@
-/* JavaScript, html5, jQuery and CSS3 Study | (c) 2013 twitter@sumo_ninja_jp
+/* JavaScript, html5, jQuery and CSS3 Study | (c) 2013-2014 twitter@sumo_ninja_jp
 */
+
+(function( exports ){
+
+var Dir = {};
+
 var storage = localStorage;
 
 $( "#dir_p02" ).on( "pageinit", function( e ){
@@ -37,9 +42,12 @@ function updateList() {
 
   for( var i = 0; i < storage.length; i++ ) {
     key = storage.key( i );
-    result += "<li>";
+    result += "<li data-icon='check'>";
+    //result += "<input type='checkbox' id='dir_p02_cbr" + i + "'>";
+    //result += "<label for='dir_p02_cbr" + i + "'>";
     result += "<h3 class='dir-li'>Key[" + i + "]: " + key + "</h3>";
     result += "<p class='dir-li'>Value: " + replaceTag( storage.getItem( key ) ) + "</p>";
+    //reault += "</label>";
     result += "</li>";
   }
   result += "</ul>";
@@ -51,3 +59,4 @@ function updateList() {
 function replaceTag( str ) {
   return str.replace( /</g, "&lt" ).replace( />/g, "&gt" );
 }
+})( this );
