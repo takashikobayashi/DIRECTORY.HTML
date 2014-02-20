@@ -1,21 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- Directory | JavaScript, html5, jQuery and CSS3 Study | (c) 2013-2014 twitter@sumo_ninja_jp -->
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width" />
   <title>Directory</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <link rel="stylesheet" type="text/css" href="http://dl.dropboxusercontent.com/u/135100373/css/topcoat-mobile-light.min.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+  <script type="text/javascript">
+$(document).bind("mobileinit", function(){
+  $.mobile.defaultPageTransition = "slide";
+});
+  </script>
+
+  <script type="text/javascript" src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css" />
 
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" />
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
-
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-
-  <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
 
 </head>
 <body>
@@ -39,7 +46,7 @@ JavaScript, jQuery, HTML5 & CSS coding and debugging anywhere on iPhone.
 <h2>Tools.</h2>
 <ul data-role="listview" data-inset="true">
 <li><a href="https://itunes.apple.com/jp/app/jsany-javascript-anywhere/id363452277?mt=8"><h3>jsany - javascript anywhere</h3><p>to code, test and debug.</p></a></li>
-<li><a href="https://itunes.apple.com/jp/app/plaintext-dropbox-text-editing/id391254385?mt=8"><h3>PlainText - Dropbox text editing</h3><p>to deploy files to dropbox and adjust there.</p></a></li>
+<li><a href="https://itunes.apple.com/jp/app/plaintext-2-dropbox-text-editing/id769101727?mt=8"><h3>PlainText 2 - Dropbox text editing</h3><p>to deploy files to dropbox and adjust there.</p></a></li>
 <li><a href="https://itunes.apple.com/jp/app/scriptbrowserplus/id475185328?mt=8"><h3>ScriptBrowserPlus</h3><p>to check deloyed files or refer to codes of other sites.</p></a></li>
 <li><a href="https://itunes.apple.com/jp/app/dropbox/id327630330?mt=8"><h3>Dropbox</h3><p>to manage deployed files.</p></a></li>
 <li><a href="https://itunes.apple.com/jp/app/git/id670134910?mt=8"><h3>Git</h3><p>to check github from outside.</p></a></li>
@@ -47,20 +54,20 @@ JavaScript, jQuery, HTML5 & CSS coding and debugging anywhere on iPhone.
 
 <h2>Resources.</h2>
 
-<div data-role="collapsible-set" data-theme="c" data-content-theme="d">
+<div data-role="collapsible-set" >
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>jQuery</h3>
 <ul data-role="listview">
 <li><a href="http://api.jquerymobile.com/category/widgets/" target="_blank">Widgets | jQuery Mobile API Documentation</a></li>
-<li><a href="http://view.jquerymobile.com/1.3.2/dist/demos/" target="_blank">jQuery Mobile Demos</a></li>
+<li><a href="http://view.jquerymobile.com/1.4.1/dist/demos/" target="_blank">jQuery Mobile Demos</a></li>
 <li><a href="http://api.jquerymobile.com/" target="_blank">jQuery Mobile API Documentation</a></li>
 <li><a href="http://dev.screw-axis.com/doc/jquery_mobile/" target="_blank">jQuery Mobile 1.1.0 日本語リファレンス</a></li>
 <li><a href="http://api.jquery.com/" target="_blank">jQuery API Documentation</a></li>
 </ul>
 </div>
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>JavaScript</h3>
 <ul data-role="listview">
 <li><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference" target="_blank">JavaScriptリファレンス - MDN</a></li>
@@ -70,7 +77,7 @@ JavaScript, jQuery, HTML5 & CSS coding and debugging anywhere on iPhone.
 </ul>
 </div>
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>HTML5</h3>
 <ul data-role="listview">
 <li><a href="http://www.htmq.com/html5/index.shtml" target="_blank">HTML5リファレンス</a></li>
@@ -79,18 +86,22 @@ JavaScript, jQuery, HTML5 & CSS coding and debugging anywhere on iPhone.
 </ul>
 </div>
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>APIs</h3>
 <ul data-role="listview">
 <li><a href="https://developers.google.com/maps/documentation/staticmaps/index" target="_blank">Google Maps - Static Maps API V2 - Google Developers</a></li>
 <li><a href="https://developers.google.com/fonts/docs/getting_started?hl=ja" target="_blank">Google Fonts - 
 Getting Started - Google Developers</a></li>
 <li><a href="https://code.google.com/p/crypto-js/" target="_blank">CryptoJS - collection of standard and secure cryptographic algorithms</a></li>
+<li><a href="http://gildas-lormeau.github.io/zip.js/" target="_blank">zip.js</a></li>
+<li><a href="https://www.dropbox.com/developers/datastore" target="_blank">
+Dropbox Datastore API</a></li>
+<li><a href="http://threejs.org/" target="_blank">three.js - JavaScript 3D library</a></li>
 <li><a href="https://dev.twitter.com/docs/embedded-timelines" target="_blank">Twitter Embedded Timelines | Twitter Developers</a></li>
 </ul>
 </div>
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>Remarks</h3>
 <ul data-role="listview">
 <li><a href="https://www.dropbox.com/help/16/" target="_blank">Publicフォルダの用途は。</a></li>
@@ -98,7 +109,7 @@ Getting Started - Google Developers</a></li>
 </ul>
 </div>
 
-<div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+<div data-role="collapsible" data-theme="b" data-content-theme="a" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
 <h3>Interests</h3>
 <ul data-role="listview">
 <li><a href="http://zaach.github.io/jison/" target="_blank">Jison</a></li>
@@ -115,12 +126,12 @@ Getting Started - Google Developers</a></li>
 <h2>Studies.</h2>
 <p>Note: Stored data in WebStorage ( Session Storage ) are not compatible between codes. If code is not started, restart safari or clear storage by 20130627 code.</p>
 <ul data-role="listview" data-inset="true">
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201311201/index.html" target="_app">20131120 - 1.4.0 RC1.</a></li>
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201307241/index.html" target="_app">20130724 - Geolocation, Map.</a></li>
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201307162/index.html" target="_app">20130716 - Listview, Form.</a></li>
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201307083/index.html" target="_app">20130708 - Swipable pages.</a></li>
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201307031/index.html" target="_app">20130703 - jQuery link button.</a></li>
-<li><a href="http://dl.dropboxusercontent.com/u/135100373/201306273/index.html" target="_app">20130627 - Simple CSS button.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201311201/index.html" target="_app">20131120 - 1.4.0 RC1.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201307241/index.html" target="_app">20130724 - Geolocation, Map.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201307162/index.html" target="_app">20130716 - Listview, Form.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201307083/index.html" target="_app">20130708 - Swipable pages.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201307031/index.html" target="_app">20130703 - jQuery link button.</a></li>
+<li><a href="http://dl.dropboxusercontent.com/u/135100373/Study/201306273/index.html" target="_app">20130627 - Simple CSS button.</a></li>
 </ul>
 
 Source code under Apache V2 License:
@@ -129,16 +140,16 @@ Source code under Apache V2 License:
 
   </div> <!-- content -->
 
-  <footer class="ui-bar" data-role="footer">
-&copy; 2013 <a href="http://twitter.com/sumo_ninja_jp" target="_blank">twitter@sumo_ninja_jp</a>
-  </footer>
+  <!--footer class="ui-bar" data-role="footer">
+&copy; 2013-2014 <a href="http://twitter.com/sumo_ninja_jp" target="_blank">twitter@sumo_ninja_jp</a>
+  </footer-->
 
   </div> <!-- page -->
 
   <div data-role="page" id="dir_p02">
 
   <header data-role="header">
-  <a href="#dir_p01" data-icon="arrow-l">Back</a>
+  <a href="#dir_p01" data-icon="back" data-direction="reverse" >Back</a>
   <h1>Storage View</h1>
   </header>
 
@@ -151,14 +162,14 @@ Source code under Apache V2 License:
 </h2>
 <div id="dir_p02_elm" data-role="fieldcontain"></div>
 <div data-role="fieldcontain">
-<a href="#dir_p01" data-role="button" data-icon="arrow-l">Back</a>
+<a href="#dir_p01" data-role="button" data-icon="back" data-direction="reverse">Back</a>
 </div>
 
   </div> <!-- content -->
 
-  <footer class="ui-bar" data-role="footer">
-&copy; 2013 <a href="http://twitter.com/sumo_ninja_jp" target="_blank">twitter@sumo_ninja_jp</a>
-  </footer>
+  <!--footer class="ui-bar" data-role="footer">
+&copy; 2013-2014 <a href="http://twitter.com/sumo_ninja_jp" target="_blank">twitter@sumo_ninja_jp</a>
+  </footer-->
 
   </div> <!-- page -->
 
