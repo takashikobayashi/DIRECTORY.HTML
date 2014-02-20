@@ -42,7 +42,8 @@ function updateList() {
 
   for( var i = 0; i < storage.length; i++ ) {
     key = storage.key( i );
-    result += "<li data-icon='check'>";
+    result += "<li>";
+    //result += "<li data-icon='check'>";
     //result += "<input type='checkbox' id='dir_p02_cbr" + i + "'>";
     //result += "<label for='dir_p02_cbr" + i + "'>";
     result += "<h3 class='dir-li'>Key[" + i + "]: " + key + "</h3>";
