@@ -1,4 +1,4 @@
-/* JavaScript, html5, jQuery and CSS3 Study | (c) 2013 twitter@sumo_ninja_jp
+/* JavaScript, html5, jQuery and CSS3 Study | (c) 2013-2014 twitter@sumo_ninja_jp
 */
 
 @charset "UTF-8";
@@ -21,7 +21,7 @@ html {
 }
 .dir-li,
 .dir-hx {
- white-space: normal;
+ white-space: normal!important;
  word-break: break-all;
  word-wrap: break-word;
 }
